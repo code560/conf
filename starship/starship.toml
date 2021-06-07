@@ -1,0 +1,42 @@
+add_newline = false
+
+[character]
+success_symbol = "[> ](bright-green)"
+error_symbol = "[x ](bold red)"
+
+[directory]
+style = "bold cyan"
+format = " [$path]($style)[$read_only]($read_only_style) "
+
+[username]
+style_user = "bright-blue"
+format = "[$user]($style)"
+show_always = true
+disabled = false
+
+[hostname]
+style = "yellow"
+format = "@[$hostname]($style)"
+#ssh_only = false
+#disabled = false
+
+[cmd_duration]
+min_time = 1500
+
+[time]
+format = "[$time]($style) "
+time_format = "%F[%a] %T"
+style = "bright-yellow"
+disabled = false
+
+[git_status]
+conflicted = " 👺 "
+ahead = "🏎💨"
+behind = "😴💤"
+diverged = "😵💫‍"
+untracked = " 👻 "
+stashed = "🧊🧊"
+modified = " 🚁 "
+staged = " 🗽 "
+renamed = " 🌜 "
+deleted = " ✂ "
